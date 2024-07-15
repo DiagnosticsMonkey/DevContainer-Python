@@ -1,33 +1,21 @@
 {
     "name": "Python 3",
-    "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye"
-	// "dockerFile": "Dockerfile",
-	// "build": {
-	// 	"args": {
-	// 		"WORKSPACE": "${containerWorkspaceFolder}"
-	// 	}
-	// },
-	// "remoteUser": "dev",
+    // "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"dockerFile": "Dockerfile",
 
-	// "containerEnv": { "ZEPHYR_BASE": "${containerWorkspaceFolder}/zephyr" },
 
-    // "customizations": {
-    //     // Configure properties specific to VS Code.
-    //     "vscode": {
-    //         "settings": {
-    //             // core
-    //             "terminal.integrated.defaultProfile.linux": "bash",
-    //         },
-    //         "extensions": [
-    //             // core
-    //             "ms-vscode.cmake-tools",
-    //             "ms-azuretools.vscode-docker",
-    //             // zephyr
-    //             "circuitdojo.zephyr-tools",
-    //             // editing
-    //             "stkb.rewrap",
-    //             "wayou.vscode-todo-highlight"
-    //         ]
-    //     }
-    // } 
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            "settings": {
+                // core
+                "terminal.integrated.defaultProfile.linux": "bash",
+            },
+            "extensions": [
+                // core
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+        }
+    } 
 }
